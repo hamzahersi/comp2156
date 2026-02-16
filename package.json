@@ -4,8 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Warning: No tests created yet.\""
+    "start":"react-scripts start",
+    "build":"react-scripts build",
+    "test": "echo \"Error: No tests specified\""
+    "eject":"react-scripts eject"
   },
+  "eslintConfig":{
+  "extends": [
+  "react-app",
+  "react-app/jest"
+  ]
+},
+  "browserslist": {
+    "production": [
+	">0.2%",
+	"not dead",
+	"not op_mini all"
+	]
+}
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hamzahersi/comp2156.git"
